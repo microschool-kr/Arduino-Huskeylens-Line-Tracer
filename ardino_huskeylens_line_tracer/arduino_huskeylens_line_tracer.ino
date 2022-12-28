@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-#include <HUSKYLENS.h>
+#include "HUSKYLENS.h"
 
 HUSKYLENS huskylens;
 SoftwareSerial HuskySerial(11, 12);
